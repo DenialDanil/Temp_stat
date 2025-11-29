@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: esp32-live
+    name: Temp_stat
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: ./start.sh
